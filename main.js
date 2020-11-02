@@ -4,9 +4,9 @@ var ics = $('.fa-times');
 var menu = $('.hamburger-menu');
 
 ham.click(function(){
-menu.show();
+  menu.fadeIn('slow');
 });
 
 ics.click(function(){
-  menu.hide();
+  menu.fadeOut('fast');
 });
